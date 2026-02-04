@@ -559,8 +559,6 @@ export default function RekapPage() {
                 {exporting ? "Membuat PDF..." : "Export PDF"}
               </button>
             </div>
-
-
           </div>
         </div>
       </div>
@@ -616,7 +614,7 @@ export default function RekapPage() {
           <table className="min-w-[1150px] w-full text-sm table-fixed text-slate-900">
             <thead>
               <tr className="border-b border-slate-200 text-left text-xs text-slate-600">
-                <th className="py-3 pr-3 w-[120px] whitespace-nowrap">Nama</th>
+                <th className="py-3 pr-3 w-[200px] whitespace-nowrap">Nama</th>
                 <th className="py-3 pr-3 w-[110px] text-center whitespace-nowrap">
                   Kelas
                 </th>
